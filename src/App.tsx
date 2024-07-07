@@ -1,6 +1,8 @@
+import * as React from "react";
 import "./App.css";
 
 function App() {
+  const [_count, _setCount] = React.useState(0);
   return (
     <>
       <h1>HamCoin</h1>
